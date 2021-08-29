@@ -3,9 +3,10 @@ import Style from '../Pages/Style'
 import Color from '../Pages/Color'
 import Names from '../Pages/Names'
 import CreationNav from '../Components/CreationNav';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, useParams, useRouteMatch} from 'react-router-dom';
 
 function Badges() {
+
   return (
     <Router>
       <div>
