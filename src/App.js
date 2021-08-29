@@ -3,7 +3,7 @@ import Badges from './Pages/Badges';
 import About from './Pages/About';
 import Home from './Pages/Home';
 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route,} from 'react-router-dom';
 
 function App() {
   return (
